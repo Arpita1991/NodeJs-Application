@@ -1,0 +1,86 @@
+body {
+  padding: 15px;
+  background-image: url("../images/plain_background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left:30%; 
+}
+h1{
+    color: black;
+    margin-left:3%; 
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+table{
+    border: 1px solid black;
+}
+td{
+    height: 30px;
+    vertical-align: bottom;
+}
+tr:hover {background-color: cadetblue;}
+th{
+     background-color: cadetblue;
+    color: white;
+     height: 50px;
+     text-align: left;
+}
+table, th, td {
+   border: 1px solid black;
+}
+select#Animal
+{
+    font-weight: bold;
+}
+#box
+{
+  position: absolute;
+ box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+ padding: 25px;
+ background-color:white;
+ border-radius: 5px;
+ width: 80%;
+ height: 60%;
+ margin-top: 2%;
+ left:20;
+}
+#box input.getData
+{
+border-radius:5px;
+width:30%;  
+height: 25px;
+font-size: 16px; 
+}
+#box select.getData
+{
+border-radius:5px;
+width:30%;  
+height: 30px; 
+}
+
+.btn { 
+font-size:18px;
+  color:#FFFFFF; 
+  background-color:black; 
+  border:1px solid;
+  border-radius:5px; 
+  border-color: #696 #363 #363 #696; 
+  cursor:pointer;
+  width:12%;
+  height: 40px;
+  padding: 10px 10px 10px 10px;
+}
+.btn:hover
+{
+	background-color: grey;
+    color: black;
+    font-weight: bold;
+} 

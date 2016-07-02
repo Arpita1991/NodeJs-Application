@@ -1,0 +1,19 @@
+extends layout
+    
+block content
+ h1='Enter Details'
+ div(id="box")
+    form(method="post",action="/home",id="",onsubmit="makeCookie();")
+        p First Name 
+        input(type="text",name="FirstName",id="FirstName",class="getData")
+        p Last Name 
+        input(type="text",name="LastName",id="LastName",class="getData")
+        p Email     
+        input(type="text",name="Email",id="Email",class="getData")
+        p Your Favourite Animal 
+        select(id="Animal",class="getData") 
+            option(value="Dog") Dog
+            option(value="Tiger") Tiger
+            option(value="Cat") Cat
+        p
+        input(type="submit",name="submit",class="btn")
